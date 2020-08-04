@@ -139,13 +139,10 @@ export class MtgCardViewer extends React.Component {
             mobileMode={mobileMode}
             uri={uri}
             cardName={cardName}
-            mouseOverHandler={this.mouseOverHandler}
-            mouseLeaveHandler={this.mouseLeaveHandler}
             onClickHandler={this.onClickHandler}
           />
           {cardFound && (
             <CardImageBox
-              imageStyling={this.props.imageStyling}
               imageUri={imageUri}
               cardName={cardName}
               imageWidth={imageWidth}
@@ -162,7 +159,6 @@ export class MtgCardViewer extends React.Component {
 
 MtgCardViewer.propTypes = {
   searchTerm: PropTypes.string.isRequired,
-  imageStyling: PropTypes.object,
   mobileMode: PropTypes.bool,
   imageWidth: PropTypes.string,
 };

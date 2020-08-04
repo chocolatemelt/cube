@@ -1,28 +1,27 @@
-.mtgCardViewer {
-  position: relative;
-}
-
-.mtgCardViewerBox {
-  position: absolute;
-  height: auto;
-  padding: 8px;
-  top: 32px;
-  left: -22px;
-  z-index: 99;
-  border-radius: 10px;
-  -webkit-box-shadow: 2px 2px 12px 2px rgba(125, 119, 125, 1);
-  -moz-box-shadow: 2px 2px 12px 2px rgba(125, 119, 125, 1);
-  box-shadow: 2px 2px 12px 2px rgba(125, 119, 125, 1);
-  background-color: #fff;
-}
-
 .mtgCardViewer.mobile {
   position: inherit;
 }
 
 .mtgCardViewerBox.mobile {
-  position: absolute;
+  position: fixed;
+  height: auto;
+  border-radius: 10px;
+  padding: 8px;
   top: 50%;
   left: 50%;
+  z-index: 99;
   transform: translateX(-50%) translateY(-50%);
+  box-shadow: 2px 2px 12px 2px rgba(125, 119, 125, 1);
+  background-color: #fff;
+}
+
+.mtg-tooltip {
+  padding: 0 !important;
+  opacity: 1 !important;
+  border-radius: 12px !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.mtg-tooltip img {
+  border-radius: 12px !important;
 }
