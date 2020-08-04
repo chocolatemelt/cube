@@ -22,12 +22,14 @@ body {
   display: flex;
   align-items: center;
   position: relative;
+  margin-left: -3em;
+  padding-left: 3em;
 }
 
-.anchor-link {
+a.anchor {
   position: absolute;
   display: inline-block;
-  left: -2em;
+  left: 0.9em;
 }
 
 a,
