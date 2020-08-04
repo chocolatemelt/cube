@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
+import { isMobile } from "react-device-detect";
 
 import renderers from "./renderers";
 
@@ -18,6 +19,11 @@ const Main = () => {
   return (
     <div className="cube">
       <ReactMarkdown source={markdown} renderers={renderers} />
+      {isMobile && (
+        <a className="top fixed" href="#index">
+          top
+        </a>
+      )}
     </div>
   );
 };

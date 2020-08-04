@@ -36,6 +36,11 @@ const AnchorHeading = (props) => {
         </a>
       )}
       {children}
+      {isHovered && (
+        <a className="top" href="#index">
+          top
+        </a>
+      )}
     </div>
   );
 };
