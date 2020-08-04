@@ -117,7 +117,7 @@ export class MtgCardViewer extends React.Component {
   }
 
   render() {
-    const { mobileMode } = this.props;
+    const { mobileMode, text } = this.props;
     const {
       cardName,
       imageUri,
@@ -139,6 +139,7 @@ export class MtgCardViewer extends React.Component {
             mobileMode={mobileMode}
             uri={uri}
             cardName={cardName}
+            cardText={text}
             onClickHandler={this.onClickHandler}
           />
           {cardFound && (
@@ -159,6 +160,7 @@ export class MtgCardViewer extends React.Component {
 
 MtgCardViewer.propTypes = {
   searchTerm: PropTypes.string.isRequired,
+  text: PropTypes.string,
   mobileMode: PropTypes.bool,
   imageWidth: PropTypes.string,
 };
