@@ -33,6 +33,7 @@ const CardImageBox = (props) => {
       id={cardName}
       arrowColor="transparent"
       place="bottom"
+      wrapper="span"
     >
       <img
         src={imageUri}
@@ -42,16 +43,6 @@ const CardImageBox = (props) => {
       ></img>
     </ReactTooltip>
   );
-
-  // return display ? (
-  //   <img
-  //     className={classnames("mtgCardViewerBox", { mobile: mobileMode })}
-  //     src={imageUri}
-  //     alt={cardName}
-  //     style={imageStyling ? imageStyling : defaultStyling}
-  //     onClick={mouseClickHandler}
-  //   ></img>
-  // ) : null;
 };
 
 CardImageBox.propTypes = {
