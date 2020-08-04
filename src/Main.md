@@ -47,3 +47,31 @@ alternatively, you can go for the cube-specific drafting method OSHIT, by Zolthu
 > **[I]GNORE ALL CUTE ARCHETYPES**
 
 > **[T]AKE ALL GOLD CARDS THAT WHEEL**
+
+### drafting signals
+
+when you do a booster draft, you want to pay the most attention to the people next to you; they are your friends. in particular, you want to both pay attention to the signals from the person passing you packs, and send strong signals to the person you're passing packs to. the cards you receive and pass on are your signals; since you naturally want to choose the strongest card for your deck, you'll want to find out which colors your friends are in, and avoid them.
+
+signals can be tough to evaluate, especially in cube with such a wide variety of powerful limited bombs, but generally you want to keep an eye out on which colors tend to stay open in the packs you're being passed. when your pack cycles the entire pod and still has white in it, you know white's open; in the same vein, if packs you're receiving tend to be light on blue, then you know at least one person's going hard on blue, if not multiple people. it's not a bad idea to ditch an archetype from your first couple picks based on the signals you're receiving, since you want to avoid drafting the dregs from the person before you.
+
+### card evaluation: quadrant theory
+
+quadrant theory is a way to evaluate any given card on the spot. it's very helpful for limited and especially if you haven't played with the card much. essentially, you want to evaluate along the following 4 axes:
+
+> **Opening and Developing**: how does the card perform in the opening and developing turns of the game? cards that evaluate well along this axis are typically early aggro drops, ramp, and cantrips.
+
+> **Parity**: how does the card perform on an even board state? these are where your bombs come in. cards that evaluate well here break parity in your favor; these are your big splashy dudes, your archetype-defining permanents, and your swingy tempo drops.
+
+> **Winning**: how does the card perform on an advantageous board state? most cards evaluate well here, since most cards ideally are there to help you win. the best cards here are the ones that close out the game fastest.
+
+> **Losing**: how does the card perform on a disadvantageous board state? this is the axis that very few cards evaluate well in, and are highly sought-after bombs. key combo pieces, board wipes, and strong etb creatures are typically what you're looking for here.
+
+## etc.
+
+### design goals
+
+currently, it strongly features similar themes to vintage powered 360 cubes. i made a conscious decisiont to stay away from cards that are hard to deal with and relatively unfun if you happen to get hosed (swords, TNN, etc...)
+
+also not running honorary power (some of which are higher picks than power even), like ![Mana Crypt]() and ![Sol Ring](). i had them in an earlier version of cube and they're kind of unfun to play against.
+
+currently running a handful of "feel bad" cards: ![Balance]() and ![Channel](). both are big candidates for culling ("obviously broken"). we'll see where i end up with these two cards in the future, though they've been pretty interesting so far.
