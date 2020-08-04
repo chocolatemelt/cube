@@ -57,9 +57,9 @@ const renderers = {
     );
   },
   image: ({ alt, title, src }) => {
-    if (!title) {
+    if (src === ".") {
       return (
-        <MtgCardViewer searchTerm={alt} text={src} mobileMode={isMobile} />
+        <MtgCardViewer searchTerm={alt} text={title} mobileMode={isMobile} />
       );
     }
     return <img alt={alt} title={title} src={src} />;
