@@ -1,23 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import ReactMarkdown from "react-markdown";
+import { MtgCardViewer } from "./mtg-card-viewer/MtgCardViewer";
+
 import "./Main.css";
+import mainMd from "./Main.md";
 
-const App = () => (
-  <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
-  </div>
-);
+const renderers = {
+  image: ({ alt, title, src }) => {
+    if (!src) {
+      return <MtgCardViewer searchTerm={alt} />;
+    }
+    return null;
+  },
+};
 
-export default App;
+const Main = () => {
+  const [markdown, setMarkdown] = useState("");
+
+  useEffect(() => {
+    fetch(mainMd)
+      .then((res) => res.text())
+      .then((text) => setMarkdown(text));
+  });
+
+  return (
+    <div className="sss">
+      <ReactMarkdown source={markdown} renderers={renderers} />
+    </div>
+  );
+};
+
+export default Main;
