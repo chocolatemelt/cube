@@ -9,7 +9,7 @@ import mainMd from "./Main.md";
 const renderers = {
   image: ({ alt, title, src }) => {
     if (!src) {
-      return <MtgCardViewer searchTerm={alt} mobileMode={true} />;
+      return <MtgCardViewer searchTerm={alt} mobileMode={isMobile} />;
     }
     return null;
   },
