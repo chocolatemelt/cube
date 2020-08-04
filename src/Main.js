@@ -11,7 +11,7 @@ const renderers = {
     if (!src) {
       return <MtgCardViewer searchTerm={alt} mobileMode={isMobile} />;
     }
-    return null;
+    return <img alt={alt} title={title} src={src} />;
   },
 };
 
@@ -25,7 +25,7 @@ const Main = () => {
   });
 
   return (
-    <div className="sss">
+    <div className="cube">
       <ReactMarkdown source={markdown} renderers={renderers} />
     </div>
   );
