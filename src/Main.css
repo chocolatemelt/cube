@@ -7,8 +7,7 @@ body {
 }
 
 .cube {
-  margin: 1em;
-  margin-bottom: 3em;
+  margin: 1em 1em 3em 3em;
   max-width: 600px;
   font-size: 1em;
   line-height: 1.5em;
@@ -17,6 +16,18 @@ body {
 .mtgCardViewer a {
   font-weight: bold;
   font-style: italic;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.anchor-link {
+  position: absolute;
+  display: inline-block;
+  left: -2em;
 }
 
 a,
@@ -32,6 +43,7 @@ h3,
 h4,
 h5,
 h6 {
+  display: inline-block;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial, sans-serif;
   font-weight: bold;
