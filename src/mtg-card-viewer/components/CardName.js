@@ -2,23 +2,18 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const CardName = (props) => {
-  return (
-    <>
-      {!props.mobileMode && (
-        <a
-          href={props.uri}
-          onMouseOver={props.mouseOverHandler}
-          onMouseLeave={props.mouseLeaveHandler}
-        >
-          {props.cardName}
-        </a>
-      )}
-      {props.mobileMode && (
-        <a href={props.uri} onClick={props.onClickHandler}>
-          {props.cardName}
-        </a>
-      )}
-    </>
+  return props.mobileMode ? (
+    <a href={props.uri} onClick={props.onClickHandler}>
+      {props.cardName}
+    </a>
+  ) : (
+    <a
+      href={props.uri}
+      onMouseOver={props.mouseOverHandler}
+      onMouseLeave={props.mouseLeaveHandler}
+    >
+      {props.cardName}
+    </a>
   );
 };
 

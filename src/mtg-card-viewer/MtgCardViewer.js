@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import axios from "axios";
+import classnames from "classnames";
 
 import "./MtgCardViewer.css";
 
@@ -22,12 +23,12 @@ export class MtgCardViewer extends React.Component {
       isHovered: false,
       cardFound: false,
       imageWidth: props.imageWidth ? props.imageWidth : "280px",
-      mobileMode: props.mobileMode && props.mobileMode === true ? true : false,
     };
 
     this.setWrapperRef = this.setWrapperRef.bind(this);
     this.mouseOverHandler = this.mouseOverHandler.bind(this);
     this.mouseLeaveHandler = this.mouseLeaveHandler.bind(this);
+    this.mouseClickHandler = this.mouseClickHandler.bind(this);
     this.onClickHandler = this.onClickHandler.bind(this);
     this.onClickOutsideHandler = this.onClickOutsideHandler.bind(this);
   }
@@ -97,6 +98,15 @@ export class MtgCardViewer extends React.Component {
     });
   }
 
+  mouseClickHandler(e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    this.setState({
+      isHovered: false,
+    });
+  }
+
   buildUrl(cardName, cardSet) {
     const set = cardSet ? `set:${cardSet}` : "";
     return `${this.scryfallSearch}!"${cardName}"${set}`;
@@ -107,25 +117,41 @@ export class MtgCardViewer extends React.Component {
   }
 
   render() {
+    const { mobileMode } = this.props;
+    const {
+      cardName,
+      imageUri,
+      uri,
+      isHovered,
+      cardFound,
+      imageWidth,
+    } = this.state;
+
     return (
       <>
-        <ins className="mtgCardViewer" ref={this.setWrapperRef}>
+        <ins
+          className={classnames("mtgCardViewer", {
+            mobile: mobileMode,
+          })}
+          ref={this.setWrapperRef}
+        >
           <CardName
-            mobileMode={this.state.mobileMode}
-            uri={this.state.uri}
-            cardName={this.state.cardName}
+            mobileMode={mobileMode}
+            uri={uri}
+            cardName={cardName}
             mouseOverHandler={this.mouseOverHandler}
             mouseLeaveHandler={this.mouseLeaveHandler}
             onClickHandler={this.onClickHandler}
           />
-          {this.state.cardFound && (
+          {cardFound && (
             <CardImageBox
-              imageClass={this.props.imageClass}
               imageStyling={this.props.imageStyling}
-              imageUri={this.state.imageUri}
-              cardName={this.state.cardName}
-              imageWidth={this.state.imageWidth}
-              display={this.state.isHovered}
+              imageUri={imageUri}
+              cardName={cardName}
+              imageWidth={imageWidth}
+              display={isHovered}
+              mobileMode={mobileMode}
+              mouseClickHandler={this.mouseClickHandler}
             />
           )}
         </ins>
@@ -136,7 +162,6 @@ export class MtgCardViewer extends React.Component {
 
 MtgCardViewer.propTypes = {
   searchTerm: PropTypes.string.isRequired,
-  imageClass: PropTypes.string,
   imageStyling: PropTypes.object,
   mobileMode: PropTypes.bool,
   imageWidth: PropTypes.string,

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { MtgCardViewer } from "./mtg-card-viewer/MtgCardViewer";
+import { isMobile } from "react-device-detect";
 
 import "./Main.css";
 import mainMd from "./Main.md";
@@ -8,7 +9,7 @@ import mainMd from "./Main.md";
 const renderers = {
   image: ({ alt, title, src }) => {
     if (!src) {
-      return <MtgCardViewer searchTerm={alt} />;
+      return <MtgCardViewer searchTerm={alt} mobileMode={true} />;
     }
     return null;
   },
