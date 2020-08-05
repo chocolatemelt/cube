@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/cube/static/css/main.4279c9b2.chunk.css",
-    "main.js": "/cube/static/js/main.3ff370c8.chunk.js",
-    "main.js.map": "/cube/static/js/main.3ff370c8.chunk.js.map",
+    "main.js": "/cube/static/js/main.f6a9a550.chunk.js",
+    "main.js.map": "/cube/static/js/main.f6a9a550.chunk.js.map",
     "runtime-main.js": "/cube/static/js/runtime-main.1a59350b.js",
     "runtime-main.js.map": "/cube/static/js/runtime-main.1a59350b.js.map",
     "static/js/2.8b54d73e.chunk.js": "/cube/static/js/2.8b54d73e.chunk.js",
     "static/js/2.8b54d73e.chunk.js.map": "/cube/static/js/2.8b54d73e.chunk.js.map",
     "index.html": "/cube/index.html",
-    "precache-manifest.ab833e6cb69632ca7a4f6ffd2ba29de1.js": "/cube/precache-manifest.ab833e6cb69632ca7a4f6ffd2ba29de1.js",
+    "precache-manifest.61cc54d05fd252557636153dc0f172ba.js": "/cube/precache-manifest.61cc54d05fd252557636153dc0f172ba.js",
     "service-worker.js": "/cube/service-worker.js",
     "static/css/main.4279c9b2.chunk.css.map": "/cube/static/css/main.4279c9b2.chunk.css.map",
     "static/js/2.8b54d73e.chunk.js.LICENSE.txt": "/cube/static/js/2.8b54d73e.chunk.js.LICENSE.txt",
-    "static/media/Main.md": "/cube/static/media/Main.e720e258.md"
+    "static/media/Main.md": "/cube/static/media/Main.7fbc5f8c.md"
   },
   "entrypoints": [
     "static/js/runtime-main.1a59350b.js",
     "static/js/2.8b54d73e.chunk.js",
     "static/css/main.4279c9b2.chunk.css",
-    "static/js/main.3ff370c8.chunk.js"
+    "static/js/main.f6a9a550.chunk.js"
   ]
 }

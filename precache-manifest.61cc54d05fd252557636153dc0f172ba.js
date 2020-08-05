@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc2627f183ad7c7216b8cc0588047d0f",
+    "revision": "1da3096fdf978fbf485521886cd94174",
     "url": "/cube/index.html"
   },
   {
-    "revision": "e035e0abd3489e9a85e4",
+    "revision": "3cedba8c5a77cd5c4f2f",
     "url": "/cube/static/css/main.4279c9b2.chunk.css"
   },
   {
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cube/static/js/2.8b54d73e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e035e0abd3489e9a85e4",
-    "url": "/cube/static/js/main.3ff370c8.chunk.js"
+    "revision": "3cedba8c5a77cd5c4f2f",
+    "url": "/cube/static/js/main.f6a9a550.chunk.js"
   },
   {
     "revision": "3e1502b6e589feca5e09",
     "url": "/cube/static/js/runtime-main.1a59350b.js"
   },
   {
-    "revision": "e720e25889eb1ae7915cda9364a860eb",
-    "url": "/cube/static/media/Main.e720e258.md"
+    "revision": "7fbc5f8c2f3f613a907c0068a23d9244",
+    "url": "/cube/static/media/Main.7fbc5f8c.md"
   }
 ]);
