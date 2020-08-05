@@ -159,7 +159,7 @@ g + x
 
 oath alone is pretty inconsistent, but it goes great with the general temur strategy of cheat things out; along with ![Sneak Attack](. "sneak") and ![Show and Tell](. "show"), it can be a pretty strong deck with a lot of different ways to play fatties. ![Sneak Attack](.) is especially strong with oath, since it doesn't leave behind a creature for your upkeep. you also want to look for ![Forbidden Orchard](.), a land which ensures you get your oath triggers and provides strong mana fixing.
 
-green ramp is a decent shell since it gives you access to ![Tooth and Nail](.) and ![Green Sun's Zenith](.), both of which are relatively weak but good mana sinks if you haven't drawn into oath. ironically, you do want to avoid ![Gaea's Cradle](. "cradle"), since you want to have as few creatures as possible - but ![Tolarian Academy](.) and artifact ramp are easy draft picks.
+green ramp is a decent shell since it gives you access to ![Tooth and Nail](.) and ![Green Sun's Zenith](.), both of which are relatively weak but good mana sinks if you haven't drawn into oath. you do want to avoid ![Gaea's Cradle](.), since you won't be playing many creatures, but ![Tolarian Academy](.) and artifact ramp are easy draft picks.
 
 oath works very well with planeswalkers, especially as a way to buffer your life while you try to draw into any of your power pieces. the manland creating planeswalkers like ![Koth of the Hammer](. "Koth") can be useful for this since most of them return to being lands at end of turn, preventing you from missing out on oath effects.
 
@@ -188,10 +188,11 @@ standard sealed drafting is just as simple, though limited to 4 players at most.
 shuffling is hard. i use the [moak0 shuffling method](https://www.reddit.com/r/mtgcube/comments/34fet8/novel_method_for_shuffling_a_cube/):
 
 1. organize cards into each color (w/u/b/r/g) and a sixth "rest of the cards" pile.
-2. move cards from each color into the sixth pile until there is 10% of the cube count in each colored pile (i.e. 36 cards in each colored pile for 360 cube)
+2. move cards from each color into the sixth pile until there is 10% of the cube count in each colored pile (i.e. 36 cards in each colored pile for 360 cube).
 3. shuffle the sixth pile however you please.
-4. distribute cards from the sixth pile evenly back into each colored pile. each colored pile should have 20% of the cube count now (i.e. 72 cards for 360 cube)
-5. construct packs evenly from each pile. for standard booster draft, that's 3 cards from each pile.
+4. distribute cards from the sixth pile evenly back into each colored pile. each colored pile should have 20% of the cube count now (i.e. 72 cards for 360 cube).
+5. shuffle each colored pile.
+6. construct packs evenly from each pile. for standard booster draft, that's 3 cards from each pile.
 
 ### two-player draft formats
 
