@@ -29,7 +29,7 @@
 
 this is a vintage unpowered cube, first conceived in february 2020 shortly before the release of Ikoria. it features some of the more iconic limited archetypes and cards in Magic's history. the full list is [here](https://cubecobra.com/cube/list/kev).
 
-on the strix scale, it's between **8-N** to **8-F** - just below powered cubes and relatively fast, but not quite on the level of broken mana (![Sol Ring](.)). here's what that means according to the [source](https://www.reddit.com/r/mtgcube/comments/c2wyta/the_strix_scale_shorthand_for_cube_power_level/) itself:
+on the strix scale, it's between **8-N** to **8-F**—just below powered cubes and relatively fast, but not quite on the level of broken mana (![Sol Ring](.)). here's what that means according to the [source](https://www.reddit.com/r/mtgcube/comments/c2wyta/the_strix_scale_shorthand_for_cube_power_level/) itself:
 
 > **8**: High-quality fixing; "best-in-class" answers and threats; some fast mana.
 
@@ -59,7 +59,7 @@ the simplest way to draft is by evaluating the cards and picking them in [FOCUS]
 
 the FOCUS drafting order is most important to keep in mind for your first pick of your first pack (p1p1), though it's not the be all and end all of drafting strategies. it's main advantages are being easy to keep in mind and very safe: done properly, you shouldn't have a complete dud of a deck.
 
-alternatively, you can go for the cube-specific drafting method OSHIT:
+alternatively, you can go for the cube-specific drafting method OSHIT by Zolthux:
 
 > **[O]BVIOUSLY BROKEN CARD**
 
@@ -73,7 +73,11 @@ alternatively, you can go for the cube-specific drafting method OSHIT:
 
 ### drafting signals
 
-when you do a booster draft, you want to pay the most attention to the people next to you; they are your friends. in particular, you want to both pay attention to the signals from the person passing you packs, and send strong signals to the person you're passing packs to. the cards you receive and pass on are your signals; since you naturally want to choose the strongest card for your deck, you'll want to find out which colors your friends are in, and avoid them.
+> _"when neighboring drafters learn what one another are drafting, they're able to cooperate and will both wind up with better decks. This type of understanding and cooperation can be accomplished through signaling… signaling comes in the form of what cards you pass, receive, do not pass, and do not receive from your neighbors."_
+
+> —[Reid Duke](https://magic.wizards.com/en/articles/archive/lo/basics-booster-draft-2014-11-03)
+
+during a standard booster draft, you want to pay the most attention to the people next to you. in particular, you want to both pay attention to the signals from the person passing you packs, and send strong signals to the person you're passing packs to. since you naturally want to choose the strongest card for your deck, you'll want to find out which colors or archetypes your neighbors are in, and avoid them.
 
 signals can be tough to evaluate, especially in cube with such a wide variety of powerful limited bombs, but generally you want to keep an eye out on which colors tend to stay open in the packs you're being passed. when your pack cycles the entire pod and still has white in it, you know white's open; in the same vein, if packs you're receiving tend to be light on blue, then you know at least one person's going hard on blue, if not multiple people. it's not a bad idea to ditch an archetype from your first couple picks based on the signals you're receiving, since you want to avoid drafting the dregs from the person before you.
 
@@ -97,7 +101,7 @@ a summary of some of the more explicitly supported archetypes.
 
 b + u/g/x
 
-reanimator is one of the more iconic archetypes from magic's history, and basically aims to circumvent high mana costs by cheating them into play from the graveyard. reanimator decks play very well as combo decks in dimir colors, but can also work well in golgari midrange shells. reanimator has two key combo pieces: ![Entomb](. "discard outlets"), and ![Reanimate](. "reanimation spells"). cards like ![Buried Alive](.) and ![Faithless Looting](.) are great for loading your graveyard, while the 2 cmc reanimation spells like ![Exhume](.) and ![Goryo's Vengeance](.) are the abusive spells you need to cheat out big creatures.
+reanimator is one of the most iconic archetypes in magic's history, and basically aims to circumvent high mana costs by cheating them into play from the graveyard. reanimator decks play very well as combo decks in dimir colors, but can also work well in golgari midrange shells. reanimator has two key combo pieces: ![Reanimate](. "enablers"), and ![Ulamog, the Ceaseless Hunger](. "payoffs"). cards like ![Buried Alive](.) and ![Faithless Looting](.) are great for loading your graveyard, while the 2 cmc reanimation spells like ![Exhume](.) and ![Goryo's Vengeance](.) are the abusive spells you need to cheat out big creatures.
 
 the u/b dimir variant plays much like a combo deck; you'll want to have ![Ponder](. "cantrips") to sift through, ![Looter Il-Kor](. "looters") for card and graveyard advantage, and ![Mystical Tutor](. "tutors") to find your reanimation pieces. this also plays well with typical cheat spells like ![Tinker](.) and ![Show and Tell](.).
 
@@ -119,11 +123,11 @@ the goal for the deck is to be a decent midrange / control deck with occasional 
 
 r + u/g/x
 
-![wildfire](.) is a pretty weird deck that isn't super intuitive at first glance. it's a deck that revolves around setting up an asymmetrical wildfire or similar effect, and then racing to the bottom with either artifact mana (which is unaffected), land ramp, or just holding extra mana (playing cards out after an ![upheaval](.)). this deck shines if you can assemble exodia: ![Wildfire](.), ![Burning of Xinye](.), and ![Upheaval](.).
+![wildfire](.) is a pretty weird deck that isn't super intuitive at first glance. it's a deck that revolves around setting up an asymmetrical wildfire or similar effect, and then racing to the bottom with either artifact mana (which is unaffected), land ramp, or just holding extra mana (playing cards out after an ![upheaval](.)). this deck is at its best if you can assemble exodia: ![Wildfire](.), ![Burning of Xinye](.), and ![Upheaval](.).
 
-an izzet control shell really shines in this archetype, since you have access to a number of ways to both reach 6 mana safely and race to the bottom faster. it's still quite playable with green (land ramp / stompy creatures that survive) or white (fast clock and access to ![Balance](.)) but it'll feel extremely swingy without a consistent way to hit your turn 6 wildfire, which means sticking to an izzet or gruul shell depending on which pieces you drafted. ![Tinker](.) shells are also not bad if you have lots of artifact ramp.
+an izzet control shell really shines in this archetype, since you have access to a number of ways to both reach 6 mana safely and race to the bottom faster. it's still quite playable with green (![Rampant Growth](. "land ramp") / ![Wurmcoil Engine](. "big creatures")) or white (fast clock and access to ![Balance](.)) but it'll feel extremely swingy without a consistent way to hit your turn 6 wildfire, which means sticking to an izzet or gruul shell depending on which pieces you drafted. ![Tinker](.) shells are also not bad if you have lots of artifact ramp.
 
-tutors really help with the consistency of this deck. wildfire and cousins have the benefit of being searchable by most of the available tutors. it's also not a bad idea to splash black for access to ![Demonic Tutor](.) or similar.
+![Mystical Tutor](. "tutors") really help with the consistency of this deck. wildfire and cousins have the benefit of being searchable by most of the available tutors. it's also not a bad idea to splash black for access to ![Demonic Tutor](.) or similar.
 
 planeswalkers are really strong with this archetype, as they're not touched by wildfire and thus help increase the asymmetrical delta after casting. on the other hand, planeswalkers are also one of the harder things to play against. ![Koth of the Hammer](. "Koth") is a notable inclusion as he gives you a strong finisher and a decent ramp. another great finisher is ![Greater Gargadon](.), who you can sac your lands (and creatures!) in advance for a 9/7 beater straight after land destruction.
 
@@ -131,7 +135,7 @@ planeswalkers are really strong with this archetype, as they're not touched by w
 
 u/r + w
 
-this is a fun and somewhat degenerate combo deck that's best played in a control or midrange shell with occasional outs to a game ending infinite. if you can get both major engines (![Kiki-Jiki, Mirror Breaker](. "Kiki-Jiki") and ![Splinter Twin](.)) all you have to do is draft both value etb pieces and winning combo pieces to build a solid deck. the salt factor of this archetype is pretty high, since the combo is a special kind of degenerate but also relatively fragile, as most instant-speed removal and all counterspells can put a quick stop to it.
+this is a fun and somewhat degenerate combo deck that's best played in a control or midrange shell with occasional outs to a game-ending infinite. if you can get both major engines (![Kiki-Jiki, Mirror Breaker](. "Kiki-Jiki") and ![Splinter Twin](.)) all you have to do is draft both ![Vendilion Clique](. "value etb pieces") and ![Zealous Conscripts](. "winning combo pieces") to build a solid deck. the salt factor of this archetype is pretty high—the combo is a special kind of degenerate—but also relatively fragile, as most instant-speed removal counterspells can put a quick stop to it.
 
 aside from the infinite combos, kiki and twin are generally strong value engines as they can add extra etb effects and bodies. u/r is also a pretty strong color combination in general, so it's not exactly hurting for ways to win even without the combo.
 
@@ -151,13 +155,13 @@ the major combos to note are:
 
 g + x
 
-![Oath of Druids](.) is a weird and extremely powerful card to build around that you really don't want to draft unless it's early or you're already in a big cheaty archetype. it's almost always great combined with the other cheaty archetypes and very poor in most other deck types, like aggro or midrange. the key thing to note about the archetype is that you **really** do not want creatures besides your big payoffs; in order to make the effect as asymmetrical as possible, you generally want all your hits to be big and immediate impact.
+![Oath of Druids](.) is a weird and extremely powerful card to build around that you really don't want to draft unless it's early or you're already in a big cheaty archetype. it's almost always great combined with the other cheaty archetypes and very poor in most other deck types, like aggro or midrange. the key thing to note about the archetype is that you _really_ do not want creatures besides your big payoffs; in order to make the effect as asymmetrical as possible, you generally want all your hits to be big and immediate impact.
 
 oath alone is pretty inconsistent, but it goes great with the general temur strategy of cheat things out; along with ![Sneak Attack](. "sneak") and ![Show and Tell](. "show"), it can be a pretty strong deck with a lot of different ways to play fatties. ![Sneak Attack](.) is especially strong with oath, since it doesn't leave behind a creature for your upkeep. you also want to look for ![Forbidden Orchard](.), a land which ensures you get your oath triggers and provides strong mana fixing.
 
-green ramp is a decent shell since it gives you access to ![Tooth and Nail](.) and ![Green Sun's Zenith](.), both of which are relatively weak but good mana sinks if you haven't drawn into oath. ironically, you do want to avoid ![Gaea's Cradle](. cradle), since you want to have as few creatures as possible - but ![Tolarian Academy](.) and artifact ramp are easy draft picks.
+green ramp is a decent shell since it gives you access to ![Tooth and Nail](.) and ![Green Sun's Zenith](.), both of which are relatively weak but good mana sinks if you haven't drawn into oath. ironically, you do want to avoid ![Gaea's Cradle](. "cradle"), since you want to have as few creatures as possible - but ![Tolarian Academy](.) and artifact ramp are easy draft picks.
 
-oath works very well with planeswalkers, especially as a way to buffer your life while you try to draw into any of your power pieces. the manland creating planeswalkers like ![Koth of the Hammer](. Koth) can be useful for this since most of them return to being lands at end of turn, preventing you from missing out on oath effects.
+oath works very well with planeswalkers, especially as a way to buffer your life while you try to draw into any of your power pieces. the manland creating planeswalkers like ![Koth of the Hammer](. "Koth") can be useful for this since most of them return to being lands at end of turn, preventing you from missing out on oath effects.
 
 drafting oath is difficult, since it's incompatible with pretty much everything but the other big cheaty archetypes. unlike the nightmare archetype, you can't really hope to win without drawing into your cheat spells, but it can lead to some explosive games very quickly.
 
@@ -167,9 +171,9 @@ u/r + g
 
 a powerful cheaty archetype primarily focused in izzet colors. the main stars are ![Sneak Attack](.) and ![Show and Tell](.), both of which want to cheat out large and broken creatures like ![Emrakul, the Aeons Torn](. "Eldrazi") or ![Grave Titan](. "titans"). with access to green, you can have some level of redundancy and access to ![Survival of the Fittest](.) / ![Fauna Shaman](.), who can help load your hand with the correct fatties. as noted in the oath section, ![Oath of Druids](.) is also a strong draft pick, though it comes with some deck building restrictions.
 
-![sneak attack](.) is the real haymaker of the deck, and a sneak attack on curve can be back-breaking with a payoff in hand. it's hard to interact with and provides a consistent way to cheat out big creatures. ![show and tell](.) aims to be asymmetrical, but can potentially backfire. playing this on curve is generally best, but there's no guarantee that you're the only one cheating something out when you cast it.
+![sneak attack](.) is the real haymaker of the deck, and a sneak attack on curve can be back-breaking with a good payoff in hand: it's hard to interact with and provides a consistent way to cheat out big creatures. ![show and tell](.) aims to be asymmetrical, but can potentially backfire. playing this on curve is generally best, but there's no guarantee that you're the only one cheating something out when you cast it.
 
-additional redundancy is provided by ![Through the Breach](.), which is a lower ceiling than the titular cards of the archetype but doesn't have quite the same worst case scenario. it serves as a stopgap measure if you haven't drawn into either of the two titular combo pieces, or had them countered / discarded somehow. you can also try to incorporate ![Tinker](.), though it requires an artifact on the board in addition to a cheat target in hand.
+additional redundancy is provided by ![Through the Breach](.), which has a lower ceiling than the titular cards of the archetype but doesn't have quite the same worst case scenario. it serves as a stopgap measure if you haven't drawn into either of the two titular combo pieces, or had them countered / discarded somehow. you can also try to incorporate ![Tinker](.), though it requires an artifact on the board in addition to a cheat target in hand.
 
 generally you want to draft the enablers (sneak and show, oath, etc...) before payoffs, but some payoffs are generically good payoffs in multiple decks (specifically, artifact creatures that can hit the yard and be tinkered out). it's not a bad idea to early pick ![Sundering Titan](.) or ![Sphinx of the Steel Wind](.) with the plan to look out for ways to cheat them early, either via temur cheat or reanimator.
 
@@ -346,3 +350,7 @@ i'm also not running honorary power (some of which are higher picks than power),
 currently running a handful of "feel bad" cards: ![Balance](.) and ![Channel](.). both are big candidates for culling ("obviously broken"). we'll see where i end up with these two cards in the future, though they've been pretty interesting so far.
 
 i likely won't be increasing the size of the cube pretty much ever, since i like the constraints of a smaller cube along with being much easier to get ready for play. it's already a huge pain in the ass shuffling 360 cards, let alone 450 or 540.
+
+---
+
+(c) 2020. built with [react](https://reactjs.org/) and the [scryfall api](https://scryfall.com/docs/api).
