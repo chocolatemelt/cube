@@ -24,6 +24,7 @@
   - [other draft formats](#other-draft-formats)
 - [etc](#etc.)
   - [design goals](#design-goals)
+  - [changelog](#changelog)
 
 ## intro
 
@@ -342,13 +343,32 @@ the numbers can be adjusted to fit the number of players and the size of the cub
 
 ### design goals
 
-currently, it features similar themes to most vintage powered 360 cubes. i made a conscious decision to stay away from cards that are hard to deal with and relatively unfun if you happen to get hosed (![Sword of Fire and Ice](. "swords"), ![True-Name Nemesis](. "TNN"), etc...)
+currently, it features similar themes to most vintage powered 360 cubes. i made a conscious decision to stay away from cards that are hard to deal with and relatively unfun if you happen to get ![True-Name Nemesis](. "hosed").
 
 i'm also not running honorary power (some of which are higher picks than power), like ![Mana Crypt](.) and ![Sol Ring](.). i had them in an earlier version of cube and they're a special kind of unfun to play against.
 
 currently running a handful of "feel bad" cards: ![Balance](.) and ![Channel](.). both are big candidates for culling ("obviously broken"). we'll see where i end up with these two cards in the future, though they've been pretty interesting so far.
 
-i likely won't be increasing the size of the cube pretty much ever, since i like the constraints of a smaller cube along with being much easier to get ready for play. it's already a huge pain in the ass shuffling 360 cards, let alone 450 or 540.
+i likely won't be increasing the size of the cube pretty much ever, since i like the constraints of a smaller cube along with being much easier to get ready for play. it's already a huge pain in the ass shuffling 360 cards, let alone 450 or 540. the design restrictions at the 360 size as well as the fact that i very rarely play a full pod of 8 people means that 360 is pretty much perfect.
+
+### changelog
+
+**2xm reprint equity (08/07)**
+
+well, with some luck i managed to get some pretty slick foil showcase cards. i blinged out some of the staples:
+
+- ![Path to Exile|PWP09](.)
+- ![Swords to Plowshares|J13](.)
+
+and added the whole suite of swords:
+
+- ![Sword of Body and Mind|2xm number:363](.)
+- ![Sword of Feast and Famine|2xm number:364](.)
+- ![Sword of Fire and Ice|2xm number:365](.)
+- ![Sword of Light and Shadow|2xm number:366](.)
+- ![Sword of War and Peace|2xm number:367](.)
+
+previously, i had not added swords primarily because of the price point, but also because i had been swayed by the online argument of "but they hose random colors." well, this is finally the opportunity to test them for real. i've seen compelling arguments both ways and so i'll form my own opinion based on how they actually play out in drafts, though most importantly they're just _fucking beautiful_ in foil showcase art.
 
 ---
 
