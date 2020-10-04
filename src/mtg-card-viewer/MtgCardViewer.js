@@ -19,10 +19,12 @@ export class MtgCardViewer extends React.Component {
       searchSet: st[1],
       cardName: "",
       imageUri: "#",
+      imageBackUri: "#",
       uri: "#",
       isHovered: false,
       cardFound: false,
       imageWidth: props.imageWidth ? props.imageWidth : "280px",
+      isDfc: false,
     };
 
     this.setWrapperRef = this.setWrapperRef.bind(this);
@@ -40,22 +42,34 @@ export class MtgCardViewer extends React.Component {
     axios
       .get(this.buildUrl(searchTerm, searchSet))
       .then((res) => {
-        let data = res.data;
-        let amount = data.total_cards;
+        const data = res.data;
+        const amount = data.total_cards;
 
         if (amount) {
-          let object = data.data[0];
-          let imageUri = object.image_uris.normal;
+          const object = data.data[0];
+          const isDfc = !!object.card_faces;
+          let imageUri = "#";
+          let imageBackUri = "#";
+
+          if (isDfc) {
+            imageUri = object.card_faces[0].image_uris.normal;
+            imageBackUri = object.card_faces[1].image_uris.normal;
+          } else {
+            imageUri = object.image_uris.normal;
+          }
 
           this.setState({
             cardName: object.name,
-            imageUri: imageUri,
+            isDfc,
+            imageUri,
+            imageBackUri,
             uri: object.scryfall_uri,
             cardFound: true,
           });
         }
       })
       .catch((err) => {
+        console.log(err);
         this.setState({
           cardName: "[card not found]",
         });
@@ -120,7 +134,9 @@ export class MtgCardViewer extends React.Component {
     const { mobileMode, text } = this.props;
     const {
       cardName,
+      isDfc,
       imageUri,
+      imageBackUri,
       uri,
       isHovered,
       cardFound,
@@ -145,6 +161,8 @@ export class MtgCardViewer extends React.Component {
           {cardFound && (
             <CardImageBox
               imageUri={imageUri}
+              imageBackUri={imageBackUri}
+              isDfc={isDfc}
               cardName={cardName}
               imageWidth={imageWidth}
               display={isHovered}
