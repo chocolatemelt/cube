@@ -353,7 +353,32 @@ i likely won't be increasing the size of the cube pretty much ever, since i like
 
 ### changelog
 
-**2xm reprint equity (08/07)**
+**zendikar is rising and magic is dying (10/04/20)**
+
+sl:walking dead was announced and i will not be adding any of them to cube. magic is dying for what seems to be the 10th time this year.
+
+bling:
+
+- ![Cryptic Command|PPRO](.)
+- ![Strip Mine|ZNE](.)
+- ![Wasteland|ZNE](.)
+
+added the better pair of MDFCs:
+
+- ![Shatterskull Smashing](.)
+- ![Turntimber Symbiosis](.)
+
+and finally, some upgrades for the reasonably strong cube candidates from znr:
+
+- ![Kargan Intimidator](.)
+- ![Thieving Skydiver](.)
+- ![Sea Gate Stormcaller](.)
+- ![Skyclave Apparition](.)
+- ![Luminarch Aspirant](.)
+
+i'm not a huge fan of double-faced cards in general, because they're really finicky to play in paper. at this point in time, i only run two others: ![Kytheon, Hero of Akros](. "Kytheon, Hero of Akros") and ![Jace, Vryn's Prodigy](. "Jace, Vryn's Prodigy"), and primarily because i bothered to proxy out the flip side. these modal double-faced cards from znr are a little different though, since the flipside is mostly visible from the front. i will note that not mentioning that the land costs 3 life to enter untapped is pretty stupid though... without prior knowledge, it seems like the MDFCs can just etb untapped, but they actually have a cost associated with them. that being said, these seem pretty remarkably strong, and anything to help the gruul go big strategy is a big plus in my book.
+
+**2xm reprint equity (08/07/20)**
 
 well, with some luck i managed to get some pretty slick foil showcase cards. i blinged out some of the staples:
 
