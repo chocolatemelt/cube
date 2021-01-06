@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://nisemo.no/cube",
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "react": "^16.13.1",
     "react-device-detect": "^1.13.1",
